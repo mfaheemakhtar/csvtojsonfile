@@ -1,8 +1,6 @@
 # csvtojsonfile
 A simple Node.js module to convert CSV file to JSON file.
 
-You can use this module to convert a CSV file to a JSON file.
-
 ## How to use:
 
 ### Install:
@@ -39,17 +37,19 @@ csvtojson('./dir/read.csv', './dir/write.json', err => {
   else console.log('DONE');
 });
 ```
+NOTE: All parameters are necessary.
 
 ## Features:
-> Simple to use.
-> No dependencies. Only uses the core node modules.
-> Light-weight -- Just 55 lines of code including comments and blank lines.
-> Amazingly fast -- uses Asynchronous file read and write API.
+* Simple to use.
+* No dependencies. Only uses the core node modules.
+* Light-weight -- Just 55 lines of code including comments and blank lines.
+* Amazingly fast -- uses Asynchronous file read and write API.
 
 ## Limitations:
-> Does not check for file type.
-> Uses JSON.stringify, which is Synchronous.
+* Does not check for file type.
+* Uses JSON.stringify, which is Synchronous.
 
 ## Support:
 If you find errors or bugs, kindly open a issue on GitHub.
+
 Pull requests are also welcome.

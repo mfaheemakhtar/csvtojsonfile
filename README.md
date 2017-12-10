@@ -50,6 +50,6 @@ NOTE: All parameters are necessary.
 * Uses JSON.stringify, which is Synchronous.
 
 ## Support:
-If you find errors or bugs, kindly open a issue on GitHub.
+If you find errors or bugs, kindly open a issue on [GitHub](https://github.com/mfaheemakhtar/csvtojsonfile/)
 
 Pull requests are also welcome.

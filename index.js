@@ -40,7 +40,7 @@ module.exports = (csvFileName, jsonFileName, callback) => {
 
         // JSON.stringify is synchronous => try/catch
         try {
-            stringifiedJSON = JSON.stringify(jsonData);
+            stringifiedJSON = JSON.stringify(jsonData, null, 2);
         }
         catch (err) {
             if (err) return callback(err);

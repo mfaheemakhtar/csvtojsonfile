@@ -17,7 +17,7 @@ module.exports = (csvFileName, jsonFileName, callback) => {
         if (err) return callback(err);
 
         // Split the data by new-line
-        csvData = csvData.split('\r\n')
+        csvData = csvData.split(/\r\n|\r|\n/g)
             // Filter empty values
             .filter(data => data !== '')
             // And split using commas

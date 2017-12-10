@@ -1,0 +1,12 @@
+{
+  "name": "csvtojsonfile",
+  "version": "1.0.0",
+  "description": "A simple module to convert a CSV file to JSON file.",
+  "main": "index.js",
+  "author": "Muhammad Faheem Akhtar",
+  "homepage": "https://github.com/mfaheemakhtar/csvtojsonfile",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index"
+  }
+}
